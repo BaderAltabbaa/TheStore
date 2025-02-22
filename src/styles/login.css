@@ -1,0 +1,139 @@
+.login-body{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.login-content{
+    background-color: rgb(199, 199, 199);
+    padding: 20px;
+    border-radius: 20px;
+    width: 600px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.close-btn{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    border: none;
+    background: transparent;
+    font-size: 35px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.close-btn:hover{
+    color: #ffffff;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input, button {
+    margin: 10px 0;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    background-color: rgb(105, 165, 180);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 40%;
+    font-size: 1.4rem;
+    font-weight: bold;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.253);
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(50, 190, 224);
+  }
+
+  input{
+    border: solid 2px rgb(50, 190, 224);
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.24);
+  }
+
+  
+  h2{
+    color: white;
+    font-size: 2.5rem;
+    text-decoration: underline rgb(0, 0, 0);
+  }
+
+  .left-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-login i{
+    color: rgb(105, 165, 180);
+    font-size: 10rem;
+    padding: 25px;
+    animation: s 5s infinite linear;
+    
+  }
+
+  .left-login i:hover{
+    color: rgb(50, 190, 224);
+}
+
+@keyframes s{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .login-content{
+        width: 300px;
+    }
+
+    .close-btn{
+        font-size: 30px;
+    }
+
+    button[type="submit"] ,input{
+        font-size: 1rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    .left-login {
+        display: none;
+    }
+
+    
+
+    
+
+}

@@ -1,0 +1,19 @@
+.body{
+    margin: 25px;
+    padding-bottom: 240px;
+}
+
+.logo-about{
+    color: black;
+    font-size: 2.9rem;
+  font-weight: bold;
+}
+
+.la3i{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    font-size: 1.4rem;
+    
+}
