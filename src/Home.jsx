@@ -1,6 +1,6 @@
 import './styles/home.css'
 import React,{useEffect,useState} from "react";
-import ImageSlider from './Imageslider'
+import ImageSlider from './ImageSlider'
 import Card from './Card';
 
 
